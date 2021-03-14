@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="bin.Pages.Testing.Testing">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="847" height="471"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="1f79a" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <preferredSize width="0" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="e3647" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="East"/>
+            <properties>
+              <preferredSize width="40" height="0"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="f3766" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <preferredSize width="0" height="5"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="1e6c3" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="East"/>
+                <properties>
+                  <preferredSize width="5" height="0"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="86821" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="South"/>
+                <properties>
+                  <preferredSize width="0" height="5"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="33f4c" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <preferredSize width="5" height="0"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <component id="c285" class="javax.swing.JButton" binding="homeButton">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <borderPainted value="false"/>
+                  <font size="22"/>
+                  <horizontalTextPosition value="0"/>
+                  <requestFocusEnabled value="false"/>
+                  <text value="⌂"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="d37e7" class="javax.swing.JLabel" binding="titleLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <text value="Title"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4f4bc" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="e97b8" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <preferredSize width="800" height="150"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="7c595" class="javax.swing.JLabel" binding="wordLabel">
+            <constraints/>
+            <properties>
+              <font size="18"/>
+              <horizontalAlignment value="0"/>
+              <preferredSize width="800" height="40"/>
+              <text value="Word"/>
+            </properties>
+          </component>
+          <component id="9bc38" class="javax.swing.JTextField" binding="inputField">
+            <constraints/>
+            <properties>
+              <font size="18"/>
+              <preferredSize width="300" height="35"/>
+              <requestFocusEnabled value="true"/>
+            </properties>
+          </component>
+          <grid id="c6b8e" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <preferredSize width="800" height="5"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="9fd7" class="javax.swing.JLabel" binding="messageLabel">
+            <constraints/>
+            <properties>
+              <font size="18"/>
+              <horizontalAlignment value="0"/>
+              <preferredSize width="800" height="30"/>
+              <text value="Message"/>
+            </properties>
+          </component>
+          <grid id="46d76" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <preferredSize width="800" height="5"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="684ea" class="javax.swing.JButton" binding="enterButton">
+            <constraints/>
+            <properties>
+              <font size="18"/>
+              <preferredSize width="170" height="50"/>
+              <requestFocusEnabled value="false"/>
+              <text value="Check"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

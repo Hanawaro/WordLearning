@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="bin.Pages.Settings.Components.Tasks.TaskForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="415" height="520"/>
+    </constraints>
+    <properties>
+      <preferredSize width="400" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="8a284" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="469a9">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="empty" title-justification="2"/>
+            <children>
+              <component id="adf2d" class="javax.swing.JList" binding="translatesList">
+                <constraints/>
+                <properties>
+                  <fixedCellHeight value="30"/>
+                  <focusable value="true"/>
+                  <font size="16"/>
+                  <model/>
+                  <selectedIndex value="-1"/>
+                  <selectionMode value="0"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="a7940" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties>
+          <preferredSize width="0" height="60"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="5316d" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="East"/>
+            <properties>
+              <preferredSize width="105" height="0"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="3667d" class="javax.swing.JButton" binding="addButton">
+                <constraints/>
+                <properties>
+                  <preferredSize width="30" height="30"/>
+                  <requestFocusEnabled value="false"/>
+                  <text value="+"/>
+                </properties>
+              </component>
+              <component id="31e86" class="javax.swing.JButton" binding="editButton">
+                <constraints/>
+                <properties>
+                  <preferredSize width="30" height="30"/>
+                  <requestFocusEnabled value="false"/>
+                  <text value="/"/>
+                </properties>
+              </component>
+              <component id="dd108" class="javax.swing.JButton" binding="removeButton">
+                <constraints/>
+                <properties>
+                  <preferredSize width="30" height="30"/>
+                  <requestFocusEnabled value="false"/>
+                  <text value="-"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="99e84" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <preferredSize width="0" height="110"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="81909" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <preferredSize width="400" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="db1da" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Слово:"/>
+            </properties>
+          </component>
+          <component id="725e2" class="javax.swing.JTextField" binding="wordField">
+            <constraints/>
+            <properties>
+              <preferredSize width="200" height="30"/>
+            </properties>
+          </component>
+          <grid id="858a5" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <preferredSize width="400" height="10"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="1043e" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <preferredSize width="400" height="16"/>
+              <text value="Переводы слова:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
